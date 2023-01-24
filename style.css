@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-color: #42032C;
+    background-color: #E1D7C6;
 }
 
 #container{
@@ -17,7 +17,11 @@ body{
 }
 
 .box{
-    background-color: #F1EFDC;
+    background-color: #F8F4EA;
     width: 16px;
     height: 16px;
+}
+
+.modified-box{
+    background-color: black;
 }
