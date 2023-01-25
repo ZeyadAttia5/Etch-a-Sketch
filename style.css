@@ -4,24 +4,35 @@ body{
     align-items: center;
     height: 90vh;
     background-color: #E1D7C6;
+    gap: 5%;
 }
 
 #container{
-    flex-direction: column;
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-    height: 256px;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    width: 625px;
+    height: 625px;
     justify-content: center;
     align-items: center;
+    gap: 0px;
 }
 
 .box{
     background-color: #F8F4EA;
-    width: 16px;
-    height: 16px;
+    width: 25px;
+    height: 25px;
 }
 
 .modified-box{
     background-color: black;
+}
+
+.settings{
+
+}
+
+.settings > p{
+    margin: 10px 0 0 0;
+    font-size: smaller;
 }
