@@ -2,9 +2,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    flex-direction: row ;
     height: 90vh;
     background-color: #E1D7C6;
     gap: 5%;
+    margin-top: 2%;
+}
+
+.head{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head > p{
+    margin-bottom: 10%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
 }
 
 #container{
@@ -29,10 +48,19 @@ body{
 }
 
 .settings{
-
+    display: flex;
+    flex-direction: column;
 }
 
-.settings > p{
-    margin: 10px 0 0 0;
-    font-size: smaller;
+.settings > button{
+    background-color: #E1D7C6;
+    border: 2px solid #579BB1;
+    border-radius: 8px;
+}
+
+.settings > button:active{
+    background-color: #F8F4EA;
+    border: 2px solid #3e8e41   ;
+    transform: translateX(4px);
+    border-radius: 5px;
 }

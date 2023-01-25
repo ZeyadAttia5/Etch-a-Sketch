@@ -25,7 +25,7 @@ size.addEventListener('click', changeSize);
 
 
 function changeSize(e){
-    let s = prompt()
+    let s = prompt("Enter size (1-100)")
     s = parseInt(s);
     if(s > 0 && s <= 100){
         while(container.hasChildNodes()){
