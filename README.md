@@ -1,7 +1,7 @@
 # Etch-a-Sketch
 a website where you can unleash your creativity by drawing on a square grid
 
-
+##[Live Preview][def]
 I will use HTML, CSS, and Javascript for this project.
 
 Steps:-
@@ -26,3 +26,6 @@ Steps:-
         grid pop up without changing the total amount of pixels used.
 
 4. Push the project to GitHub!
+
+
+[def]: https://zeyadattia5.github.io/Etch-a-Sketch/
