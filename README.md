@@ -1,5 +1,5 @@
 # Etch-a-Sketch
-a website where you can unleash your creativity by drawing on a square grid
+a drawing canvas where you can unleash your creativity.
 
 ## [Live Preview][def]
 I will use HTML, CSS, and Javascript for this project.
